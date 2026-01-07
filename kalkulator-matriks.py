@@ -10,10 +10,8 @@ class AljabarApp:
         # PALET WARNA
         self.bg_main = "#121212"
         self.bg_card = "#1E1E1E"
-        # self.gold =  "#D4AF37"
         self.green = "#42b26d"
         self.white = "#FFFFFF"
-        # self.green_accent = "#00FF41"
         
         self.root.configure(bg=self.bg_main)
         self.container = tk.Frame(self.root, bg=self.bg_main)
